@@ -15,6 +15,7 @@ public class BasketRepository : IBasketRepository
     public async Task<ShoppingCart> GetBasket(string userName)
     {
         var basket = await _redisCache.GetStringAsync(userName);
+        Console.WriteLine(userName);
         if (String.IsNullOrEmpty(basket))
         {
             return null!;

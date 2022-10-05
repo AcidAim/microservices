@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // For instructions on how to configure Kestrel and gRPC clients on macOS, visit https://go.microsoft.com/fwlink/?linkid=2099682
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.ListenLocalhost(5003, o=>o.Protocols =
+    options.ListenAnyIP(5003, o=>o.Protocols =
         HttpProtocols.Http2);
 });
 // Add services to the container.
