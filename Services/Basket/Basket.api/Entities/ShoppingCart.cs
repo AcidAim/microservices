@@ -15,6 +15,8 @@ public class ShoppingCart
         UserName = userName;
     }
 
+    public string Coupon { get; set; } = string.Empty;
+
     public decimal TotalPrice
     {
         get
