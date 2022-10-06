@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{C9B08170-D3D5-4E2D-9F63-450EDBFAB093}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="microservices" expanded="True">
+            <Node name="Services" expanded="True">
+              <Node name="Basket" expanded="True">
+                <Node name="Basket.api" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Services.Catalog.Catalog.api PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>
