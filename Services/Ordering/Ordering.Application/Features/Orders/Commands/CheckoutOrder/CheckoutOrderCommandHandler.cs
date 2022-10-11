@@ -23,7 +23,7 @@ public class CheckoutOrderCommandHandler : IRequestHandler<CheckoutOrderCommand,
 
     public async Task<int> Handle(CheckoutOrderCommand request, CancellationToken cancellationToken)
     {
-        var orderEntity = OrderMapper.CheckoutCommandToOrder(request);
+        var orderEntity = _mapper.Map<Order>(request);
         var newOrder = await _orderRepository.AddAsync(orderEntity);
         
         _logger.LogInformation("Order {NewOrderId} is created", newOrder.Id);
